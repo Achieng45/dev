@@ -26,7 +26,7 @@ worksheet = workbook.active
 if table:
     for row_num, row in enumerate(table.find_all("tr")):
         for col_num, cell in enumerate(row.find_all(["th", "td"])):
-            worksheet.cell(row=row_num + 1, column=col_num + 1, value=cell.text.strip)
+            worksheet.cell(row=row_num + 1, column=col_num + 1, value=cell.text)
 else:
 
     print("Table element not found.")

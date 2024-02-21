@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TO="stephanieachieng45@gmail.com"
+TO=""
 SUBJECT="Test Email"
 BODY="Graduate trainee first email"
 
